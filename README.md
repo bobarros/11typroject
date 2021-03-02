@@ -7,7 +7,9 @@ Not so many people have experience using 11ty. This is a very up to date package
 ### 1. Clone this Repository
 
 ```
-git clone https://github.com/bobarros/11tyProject.git my-blog-name```
+git clone https://github.com/bobarros/11tyProject.git my-blog-name
+
+```
 
 
 ### 2. Navigate to the directory
