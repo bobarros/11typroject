@@ -7,15 +7,14 @@ Not so many people have experience using 11ty. This is a very up to date package
 ### 1. Clone this Repository
 
 ```
-git clone https://github.com/bobarros/11typroject.git my-blog-name
+git clone https://github.com/bobarros/11typroject.git
 
 ```
 
-
-### 2. Navigate to the directory
+### 2. Navigate to the directory created
 
 ```
-cd my-blog-name
+cd 11typroject
 ```
 
 ### 3. Install dependencies
