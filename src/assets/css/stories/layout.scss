@@ -1,0 +1,155 @@
+@font-face {
+        font-display: swap;
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 200;
+        src: local('Fira Sans'), local('Fira-Sans'), url('/fonts/FiraSans-Light.otf') format('truetype');
+        font-display: swap;
+      }
+
+@font-face {
+        font-display: swap;
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 300;
+        src: local('Fira Sans'), local('Fira-Sans'), url('/fonts/FiraSans-Regular.otf') format('truetype');
+        font-display: swap;
+      }
+
+      
+      @font-face {
+        font-display: swap;
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 500;
+        src: local('Fira Sans'), local('Fira-Sans'), url('/fonts/FiraSans-Medium.otf') format('truetype');
+        font-display: swap;
+      }
+     
+      @font-face {
+        font-display: swap;
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 700;
+        src: local('Fira Sans'), local('Fira-Sans'), url('/fonts/FiraSans-Bold.otf') format('truetype');
+        font-display: swap;
+      }      
+   
+// Cores
+$color-primary: #1C2834;
+$color-primary-bckg: #e7ecf5;
+$color-primary-light-1: lighten($color-primary, 10% );
+$color-primary-light-2: lighten($color-primary, 20% );
+$color-primary-light-3: lighten($color-primary, 30% );
+$color-primary-dark-1: darken($color-primary, 10% );
+$color-primary-dark-2: darken($color-primary, 20% );
+$color-primary-dark-3: darken($color-primary, 30% );
+
+$color-secondary: #FCEE21;
+$color-secondary-bckg: #feeaec;
+$color-secondary-light-1: lighten($color-secondary, 10% );
+$color-secondary-light-2: lighten($color-secondary, 20% );
+$color-secondary-light-3: lighten($color-secondary, 33% );
+$color-secondary-dark-1: darken($color-secondary, 10% );
+$color-secondary-dark-2: darken($color-secondary, 20% );
+$color-secondary-dark-3: darken($color-secondary, 30% );
+
+// Fontes
+$font-primary: 'Fira Sans', sans-serif;
+$font-secondary: 'Fira Sans', sans-serif;
+
+
+amp-story {
+        font-family: $font-primary;
+        color: #fff;
+      }
+
+amp-story-page {
+        background-color: #000;
+      }
+
+h1 {
+        font-weight: bold;
+        font-size: 2.875rem;
+        font-weight: 500;
+        line-height: 3rem;
+}
+
+p {
+        font-weight: normal;
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+        color: #fff;
+}
+
+q {
+        font-weight: 300;
+        font-size: 1.1rem;
+}
+amp-story-grid-layer.bottom {
+        align-content:end;
+}
+      
+amp-story-grid-layer.noedge {
+        padding: 0;
+}
+
+amp-story-grid-layer.center-text {
+        align-content: center;
+}
+
+.wrapper {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+}
+
+.banner-text {
+        text-align: center;
+        background-color: $color-primary;
+        line-height: 1.65rem;
+        font-size: 1.25rem;
+        padding: 1rem 2rem;
+}
+
+.fundo-padrao {
+        background-color: $color-primary;
+        opacity: .35;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+}
+
+.slide_x {
+        animation-name: slide_x;
+        animation-duration: 5s;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+      }
+      
+      @keyframes fade {
+              0% {
+                transform: translateX(0);                     
+
+              } 
+                     
+              100% {
+                transform: translateX(150px);  
+              }
+}
+
+.botao, .botao:visited, .botao:active {
+        border-radius: 50%;
+        font-size: 1rem;
+        padding: 0;
+        text-align: center;
+        background-color: $color-secondary-dark-1;
+        height: 5rem;
+        width: 5rem;
+        margin: auto;
+        line-height: 5rem;
+        text-decoration: none;
+        color: #fff;
+
+}

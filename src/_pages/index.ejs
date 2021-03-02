@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+        
+        <%- include('../_layouts/index/head') %>
+        <%- include('../_layouts/partials/header/nav-bar.ejs') %>
+        
+        <div class="container-principal">
+                
+                <%- include('../_layouts/index/part-one'); %>      
+                <%- include('../_layouts/index/part-two'); %>      
+                <%- include('../_layouts/index/part-three'); %>      
+                <%- include('../_layouts/index/part-four'); %>      
+                <%- include('../_layouts/index/part-five'); %>      
+                <%- include('../_layouts/index/part-six'); %>      
+                <%- include('../_layouts/index/part-seven'); %>          
+                
+        </div>
+<%- include('../_layouts/partials/componentes/footer'); %>
+
+</body>
+        <script src="/assets/main.js?<%- cacheBust.mainJs %>"></script>
+</html>

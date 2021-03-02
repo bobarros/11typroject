@@ -1,0 +1,102 @@
+.texto-administrativo {
+        
+        max-width: 1440px;
+        margin: 0 auto;
+        display: grid;        
+        background-color: #eee;
+        justify-content: center;
+        
+        &__bloco {                              
+                margin: 13% 0 4rem 0;
+                font-family: $font-primary;
+
+                @media only screen and (max-width: $bp-extra-large){
+                        margin: 18% 0 4rem 4%;
+                }
+
+                @media only screen and (max-width: $bp-medium){
+                        margin: 15% 0 4rem 4%; 
+                }
+
+                @media only screen and (max-width: $bp-extra-small){
+                        margin: 19% 0 4rem 4%; 
+                }
+        }
+
+        &__texto {   
+                color: #333;                
+                max-width: 800px;  
+                
+                & a,
+                a:link,
+                a:visited,
+                a:active {
+                        color: #333;
+                        text-decoration: none;
+                        font-size: 2rem;
+                        font-family: $font-secondary;
+                        font-weight: 500;
+                }
+
+                
+                @media only screen and (max-width: $bp-large){
+                        max-width: 90%;        
+                }
+                
+                &--titulo {
+                        font-size: 2.8rem;
+                        padding-bottom: 1.6rem;
+                        font-family: $font-secondary;
+                }
+
+                &--subtitulo {
+                        font-size: 2rem;
+                        padding-bottom: 1.2rem;
+                        font-family: $font-secondary;
+                }
+                
+                &--paragrafo {
+                        font-size: 1.8rem;
+                        line-height: 2.4rem;
+                        padding-bottom: 1.4rem;
+                }
+
+                @media only screen and (max-width: $bp-small){
+
+                        &--titulo {
+                                font-size: 3.2rem;
+                                padding-bottom: 1.8rem;
+                        }
+        
+                        &--subtitulo {
+                                font-size: 2.4rem;
+                                padding-bottom: 1.2rem;
+                        }
+                        
+                        &--paragrafo {
+                                font-size: 2.4rem;
+                                line-height: 2.8rem;
+                                padding-bottom: 2rem;
+                        }
+                }
+
+                @media only screen and (max-width: $bp-extra-small){
+
+                        &--titulo {
+                                font-size: 3.6rem;
+                                padding-bottom: 1.8rem;
+                        }
+        
+                        &--subtitulo {
+                                font-size: 2.4rem;
+                                padding-bottom: 1.2rem;
+                        }
+                        
+                        &--paragrafo {
+                                font-size: 2rem;
+                                line-height: 2.4rem;
+                        }
+                }
+        }
+         
+}

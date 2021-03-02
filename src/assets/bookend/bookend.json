@@ -1,0 +1,26 @@
+{
+  "bookendVersion": "v1.0",
+  "shareProviders": [
+    "facebook",
+    "twitter",
+    "email"
+  ],
+  "components": [
+    {
+      "type": "heading",
+      "text": "More"
+    },
+    {
+      "type": "small",
+      "title": "11ty boilerplate",
+      "url": "/",
+      "image": "img/webstories/image01.jpg"
+    },
+    {
+      "type": "small",
+      "title": "11ty boilerplate",
+      "url": "/",
+      "image": "img/webstories/image01.jpg"
+    }
+  ]
+}

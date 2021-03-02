@@ -1,0 +1,44 @@
+.btn {   
+        
+        &,
+        &:link,
+        &:visited {
+                             
+                justify-self: center; 
+                text-decoration: none;
+
+                @media only screen and (max-width: $bp-small) {
+                        box-shadow: 0 1rem 2rem rgba(#000, .15);
+                }
+        }
+
+        &:hover {
+                box-shadow: 0 1rem 2rem rgba(#000, .15);
+                transform: translateY(-2px);
+        }
+
+        &:active {
+                box-shadow: 0 .5rem 1rem rgba(#000, .15);
+                transform: translateY(0);
+        }
+
+}     
+
+.linha {
+        border-bottom: 2px solid #9DD9C5;
+        width: 100%;
+}
+
+.sessao {
+        &__titulo {
+                color: #fff;                
+                text-transform: uppercase;
+                font-family: $font-secondary;
+        }
+
+        &__descricao {
+                background-color: #fff;
+                box-shadow: 0.5rem 0.5rem 0.5rem 0.2rem rgba(#000, 0.3);
+        }
+}
+

@@ -1,0 +1,83 @@
+// Cores
+$color-primary: #252627;
+$color-primary-bckg: #e7ecf5;
+$color-primary-light-1: lighten($color-primary, 10%);
+$color-primary-light-2: lighten($color-primary, 20%);
+$color-primary-light-3: lighten($color-primary, 30%);
+$color-primary-dark-1: darken($color-primary, 10%);
+$color-primary-dark-2: darken($color-primary, 20%);
+$color-primary-dark-3: darken($color-primary, 30%);
+
+$color-secondary: red;
+$color-secondary-bckg: #feeaec;
+$color-secondary-light-1: lighten($color-secondary, 10%);
+$color-secondary-light-2: lighten($color-secondary, 20%);
+$color-secondary-light-3: lighten($color-secondary, 33%);
+$color-secondary-dark-1: darken($color-secondary, 10%);
+$color-secondary-dark-2: darken($color-secondary, 20%);
+$color-secondary-dark-3: darken($color-secondary, 30%);
+
+$color-grey: #ebebeb;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+
+// Fontes
+$font-primary: sans-serif;
+$font-secondary: sans-serif;
+
+$bp-largest: 75em; //1200px
+$bp-extra-large: 65em; //1040px
+$bp-large: 57.1875em; //915px
+$bp-medium: 46.875em; //750px
+$bp-small: 34.375em; //500px
+$bp-extra-small: 28em; //448px
+$bp-smallest: 22em; //350px
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 67.5%;
+  scroll-behavior: smooth;
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 55%;
+  }
+
+  @media only screen and (max-width: $bp-smallest) {
+    font-size: 48%;
+  }
+}
+
+.fonts-loaded {
+  body {
+    font-family: My Family, sans-serif;
+  }
+}
+
+body {
+  font-family: $font-primary;
+  font-weight: 300;
+  line-height: 1.6;
+  background-color: #fff;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.preload * {
+  transition: none !important;
+}

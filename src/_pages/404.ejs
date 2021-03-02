@@ -1,0 +1,33 @@
+---
+eleventyExcludeFromCollections: true
+---
+
+<!DOCTYPE html>
+<html lang="pt-br">
+        <head>
+
+        <title>Not found</title>
+                      
+        </head>
+        <body>
+
+        <%- include('../_layouts/partials/header/nav-bar') %>
+                        
+        <div class="page404">
+                <div class="page404__bloco">
+                        <div class="page404__texto">
+                                <h1>Sorry, your page wasn't found.</h1>     
+                        </div>
+                        <div class="page404__error">
+                                <h2>404</h2>     
+                        </div>
+                        <div >
+                                <img loading=lazy class="page404__imagem" src="/images/favicon/logocronos.png" alt="image 404">
+                        </div>
+                </div>    
+        </div>       
+
+        <%- include('../_layouts/partials/componentes/footer') %>
+
+</body>
+</html>
