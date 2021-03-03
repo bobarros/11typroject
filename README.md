@@ -8,6 +8,10 @@ Live application at heroku (It takes a while for the app to start again):
   
 [eleventyproject.herokuapp.com/](https://eleventyproject.herokuapp.com/)
 
+```
+Test it out with PageSpeed Insight, local Google Lighthouse, GTmetrix, etc. Perfomance it's great!
+```
+
 
 ## Getting Started
 
