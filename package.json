@@ -12,7 +12,7 @@
     "build:assets": "webpack --config webpack.config.prod.js",
     "build:site": "ELEVENTY_ENV=production npx eleventy",
     "del:dist": "rimraf ./_site",
-    "serve:build": "serve ./_site/"
+    "start": "serve ./_site/"
   },
   "repository": {
     "type": "",

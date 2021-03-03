@@ -26,7 +26,7 @@ class SlideShow {
       this.plusSlides(-1);
     })
 
-    for (var i = 0; i < this.dotItem.length; i++) {
+    for (let i = 0; i < this.dotItem.length; i++) {
       this.dotItem[i].addEventListener('click', (event) => {
 
         let targetDot = event.target.id;

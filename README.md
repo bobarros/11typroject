@@ -1,6 +1,15 @@
 # Simple boilerplate for a landing page using 11ty
 
-Not so many people have experience using 11ty. This is a very up to date package that you can check it out how it works. Feel free to reach me at https:://brunobarros.dev
+Not so many people have experience using 11ty. This is a very up to date package that you can check it out how it works. Feel free to reach me at: 
+```
+[brunobarros.dev](https:://brunobarros.dev)
+```
+Live application at heroku (It takes a while for the app to start again):
+
+```
+[eleventyproject.herokuapp.com/](https://eleventyproject.herokuapp.com/)
+
+```
 
 ## Getting Started
 
