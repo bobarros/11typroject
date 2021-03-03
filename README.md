@@ -2,7 +2,7 @@
 
 Not so many people have experience using 11ty. This is a very up to date package that you can check it out how it works. Feel free to reach me at:  
   
-[brunobarros.dev](https:://brunobarros.dev)  
+[brunobarros.dev](https://brunobarros.dev)  
   
 Live application at heroku (It takes a while for the app to start again):  
   
