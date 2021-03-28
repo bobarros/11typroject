@@ -6,7 +6,7 @@ Not so many people have experience using 11ty. This is a very up to date package
   
 Live application at heroku (It takes a while for the app to start again):  
   
-[eleventyproject.herokuapp.com/](https://eleventyproject.herokuapp.com/)
+[https://11typroject.brunobarros.dev/](https://11typroject.brunobarros.dev/)
 
 ```
 Test it out with PageSpeed Insight, local Google Lighthouse, GTmetrix, etc. Perfomance it's great!
